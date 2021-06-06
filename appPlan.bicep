@@ -1,4 +1,4 @@
-param namePrefix string
+param  namePrefix string
 param sku string = 'B1'
 
 resource appPlan 'Microsoft.Web/serverfarms@2021-01-01' = {
